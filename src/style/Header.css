@@ -1,0 +1,50 @@
+header {
+    padding: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container div {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-left: 2px;
+    padding-left: 8px;
+}
+.logo-container div input {
+    background: none;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding-left: .3rem;
+}
+nav {
+    display: flex;
+}
+.mobile-nav {
+    display: none;
+}
+@media (max-width:767px) {
+    header {
+        justify-content: space-between;
+    }
+    .logo-container div{
+        width: 65%;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+}

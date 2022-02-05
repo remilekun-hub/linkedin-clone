@@ -1,0 +1,17 @@
+.navitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: rgb(90, 88, 88);
+}
+.navitem .nav-avatar {
+    height: 25px !important;
+    width: 25px !important;
+    object-fit: contain;
+}
+.nav-avatar {
+    text-transform: uppercase;
+}

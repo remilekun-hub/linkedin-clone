@@ -1,0 +1,11 @@
+.home {
+    background-color: #f3f2ef;
+    min-height: 100vh;
+}
+.home-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 1150px;
+    margin: auto;
+}
