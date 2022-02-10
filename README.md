@@ -1,3 +1,5 @@
+# this app was made with react, redux and firebase, it's a simple linkedin clone that looks almost like linkedin. in this app i used firebase for  authentication and firestore for database, you can easily register, login, logout and make a post
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
